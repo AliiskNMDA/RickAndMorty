@@ -12,6 +12,7 @@
 		F7198877296711220024110E /* RMCharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7198876296711220024110E /* RMCharacterListView.swift */; };
 		F7198879296727C30024110E /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7198878296727C30024110E /* Extentions.swift */; };
 		F719887B296732D90024110E /* RMCharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F719887A296732D90024110E /* RMCharacterCollectionViewCell.swift */; };
+		F719887D296736A50024110E /* RMCharacterCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F719887C296736A50024110E /* RMCharacterCollectionViewCellViewModel.swift */; };
 		F72B34EB29645B5E008A7BDB /* RMServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B34EA29645B5E008A7BDB /* RMServise.swift */; };
 		F72B34ED29645B6D008A7BDB /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B34EC29645B6D008A7BDB /* RMRequest.swift */; };
 		F72B34EF29645CB2008A7BDB /* RMEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B34EE29645CB2008A7BDB /* RMEndPoint.swift */; };
@@ -39,6 +40,7 @@
 		F7198876296711220024110E /* RMCharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterListView.swift; sourceTree = "<group>"; };
 		F7198878296727C30024110E /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		F719887A296732D90024110E /* RMCharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterCollectionViewCell.swift; sourceTree = "<group>"; };
+		F719887C296736A50024110E /* RMCharacterCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 		F72B34EA29645B5E008A7BDB /* RMServise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMServise.swift; sourceTree = "<group>"; };
 		F72B34EC29645B6D008A7BDB /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 		F72B34EE29645CB2008A7BDB /* RMEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndPoint.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				F7198874296710620024110E /* RMCharacterListViewViewModel.swift */,
+				F719887C296736A50024110E /* RMCharacterCollectionViewCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				F7B0A7F1295F0A01007BADBA /* RMLocation.swift in Sources */,
 				F7B0A7FA295F0BA6007BADBA /* RMLocarionViewController.swift in Sources */,
 				F72B34ED29645B6D008A7BDB /* RMRequest.swift in Sources */,
+				F719887D296736A50024110E /* RMCharacterCollectionViewCellViewModel.swift in Sources */,
 				F7198875296710620024110E /* RMCharacterListViewViewModel.swift in Sources */,
 				F7B0A7F8295F0B85007BADBA /* RMCharacterViewController.swift in Sources */,
 				F7198879296727C30024110E /* Extentions.swift in Sources */,
