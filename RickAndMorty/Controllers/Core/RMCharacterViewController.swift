@@ -19,6 +19,7 @@ final class RMCharacterViewController: UIViewController, RMCharacterListViewDele
        setUpView()
     }
     
+    
     private func setUpView(){
         characterListView.delegate = self
         view.addSubview(characterListView)

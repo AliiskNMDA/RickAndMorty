@@ -54,6 +54,7 @@ class RMCharacterCollectionViewCell: UICollectionViewCell {
         contentView.layer.shadowOpacity = 0.4
         contentView.layer.shadowRadius = 4
         contentView.layer.shadowOffset = CGSize(width: -4, height: 4)
+
     }
     
     private func addConstraints() {
