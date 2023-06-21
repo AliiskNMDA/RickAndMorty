@@ -33,7 +33,7 @@ final class RMCharacterViewController: UIViewController, RMCharacterListViewDele
     // MARK: - RMCharacterListViewDelegate
     func rmCharacterListView(_ characterListView: RMCharacterListView, didSelectCharacter character: RMCharacter) {
         let viewModel = RMCharacterDetailViewViewModel(character: character)
-        let detailVC = RMCharacterDetailViewController(viweModel: viewModel)
+        let detailVC = RMCharacterDetailViewController(viewModel: viewModel)
         detailVC.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(detailVC, animated: true)
     }

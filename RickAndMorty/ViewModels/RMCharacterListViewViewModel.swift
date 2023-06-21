@@ -82,14 +82,12 @@ final class RMCharacterListViewViewModel: NSObject {
                 let indexPathsToAdd: [IndexPath] = Array(startingIndex..<(startingIndex+newCount)).compactMap({
                     return IndexPath(row: $0, section: 0)
                 })
-                print(indexPathsToAdd)
                 strongSelf.characters.append(contentsOf: moreResults)
        
                 DispatchQueue.main.async {
                     strongSelf.delegate?.didLoadMoreCharacters(with: indexPathsToAdd)
-                    print(moreResults.first?.name)
                     strongSelf.isLoadingMoreCharacters = false
-                }
+                } 
             case .failure(let failure):
                 print(String(describing: failure))
                 self?.isLoadingMoreCharacters = false
